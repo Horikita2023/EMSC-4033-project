@@ -18,6 +18,6 @@ Here is the main program and there's instructions in the code.
 
 Here's `ProjectPlanner.md` and `ProjectReport.md`, the former intruduce the basic information of the project and the later introduce the project in detial.
 
-### test 
+### test folder
 
 here is the test file, include `functions.py` and `test_earthquake.py`, this is the test wheather this program can run properly.

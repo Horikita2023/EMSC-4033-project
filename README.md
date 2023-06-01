@@ -1,4 +1,4 @@
-# EMSC4033 The USGS earthquake data apply to Australia
+# The USGS earthquake data apply to Australia
 
 ### Instructions
 

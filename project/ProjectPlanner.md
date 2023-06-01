@@ -16,6 +16,11 @@ There will be two goals in this project.
 
 This project aims to use the USGS earthquake data apply to Australia situation, which has several difficulties: how to get the earthquake data and apply it to map, how to select them by different states, and how to use this Url to get detial information of the earthquaqke.
 The innovation of this project is to modify this map for most countries that people can use this for their own countries. People can input their own coordinate and they will get the nearest earthquake's information, this will help them make prepration or waring them where has more earthquakes during this time. 
+Many people has done this before in different ways and for different perpose, such as:
+`eq-mapper`: A Python script that fetches earthquake data from the USGS API and plots the earthquakes on a map using the Folium library.
+`earthquake-mapper`: A web application that retrieves earthquake data from the USGS API and visualizes it on an interactive map using Leaflet.js and Python Flask.
+`earthquake-data-mapping`: A Python script that fetches earthquake data from the USGS API and generates an interactive map using the Bokeh library.
+so what I want to do is to make a more specific one that suitable for some countries and add some parameters inside.
 
 ## Resources & Timeline
 

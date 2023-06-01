@@ -29,9 +29,22 @@ At last, it shows how to modify this program to fit other countries situation. I
 
 ### List of dependencies
 
-For the API requesting part, we need the `requests` package to send a request to the server, `JSON` package to format the data, `geopandas` packages to create a 
-data frame, mation to format used for URL. `cartopy` package is useful to add base map, axes and data point, `datetime` package is for formatting time of the earhquake shown in the USGS data, 
-`geopy` packge is for calculate distace, and `matplotlib.pyplot` package actucally does the plotting.
+For the API requesting part, we need the following modules:
+
+`requests` package to send a request to the server. 
+
+`JSON` package to format the data. 
+
+`geopandas` packages to create a 
+data frame, mation to format used for URL. 
+
+`cartopy` package is useful to add base map, axes and data point. 
+
+`datetime` package is for formatting time of the earhquake shown in the USGS data.
+
+`geopy` packge is for calculate distace. 
+
+`matplotlib.pyplot` package actucally does the plotting.
 
 ### Testing
 
@@ -60,10 +73,11 @@ Test the overall functionality by running the program with different inputs and 
 
 There are still many questions in this program, especially clear in the last example of Japan,
 like the area is just a square, which is suitable for large and regular countries such as Australia or 
-Canada, but this is not suitable for some small or complex countries.
+Canada, but this is not suitable for some small or complex countries. 
 
 
 ### Future Improvements	
 
 As I said in limitations, the next step is to put shapefile into the program to give a better boundries for each country or each state.
-It is also important to give user a way to tap in the countries they want but not modify it from code.
+It is also important to give user a way to tap in the countries they want but not modify it from code. It's also important to find a way that users can put the shapefile or build in shapefile before using in order to select the countries but not use coordinates to difinate a square, and make this program into a dashboard
+to give user choice but not ask them to input something.

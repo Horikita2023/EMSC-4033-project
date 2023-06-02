@@ -20,11 +20,13 @@ The final part user can input the coordinate they are and get the nearest earthq
 ### code folder
 
 This folder only has an `API.py` file, which is used to get data from USGS webpage, you can put it into the title of each part in my program, in order to reduce the 
-work. Attention: the first part which get earthquake number is different from this API.
+work. Attention: the first part which get earthquake number is different from this API. 
+
+The `rawcode` is the project code with no comment and explaination, if you need comment, please find `u7519655_project.ipynb` file in `notebook` folder.
 
 ### notebook folder
 
-Here is the main program and there's instructions in the code.
+Here is the main program file `u7519655_project.ipynb` and there's instructions inside.
 
 ### project folder
 

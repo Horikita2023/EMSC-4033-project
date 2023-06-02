@@ -60,18 +60,13 @@ Test the map creation by checking if the plot is generated successfully using `p
 Test the addition of earthquake data points by providing test earthquake data and verifying if the points are correctly plotted on the map using plt.scatter() or similar functions.
 Check if the map is displayed or saved correctly using `plt.show()` or `plt.savefig()`.
 
-For the `input_validation` functions:
+For the `coordinate` functions:
 
-Test the input validation functions by providing valid and invalid inputs and checking if the functions correctly identify them.
-Verify if the error messages or exceptions are raised as expected for invalid inputs.
-
-For the program as a whole:
-
-Test the overall functionality by running the program with different inputs and verifying if the expected output is generated or if the program handles errors gracefully.
+Test the latitude and longitude one by one to find out if the input is correct to work.
 
 ### Limitations
 
-There are still many questions in this program, especially clear in the last example of Japan,
+There are still many questions in this program, especially in the last example of Japan,
 like the area is just a square, which is suitable for large and regular countries such as Australia or 
 Canada, but this is not suitable for some small or complex countries. 
 

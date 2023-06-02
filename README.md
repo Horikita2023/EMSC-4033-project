@@ -20,4 +20,4 @@ Here's `ProjectPlanner.md` and `ProjectReport.md`, the former intruduce the basi
 
 ### test folder
 
-here is the test file, include `functions.py` and `test_earthquake.py`, this is the test wheather this program can run properly. The `tests.ipynb` isthe result of the test.
+here is the test file, include `functions.py`, `dependencies.py` and `test_earthquake.py`, this is the test wheather this program can run properly. The `tests.ipynb` isthe result of the test.

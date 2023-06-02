@@ -42,6 +42,8 @@ May: test code, debug
 
 ## Test
 
+This is the test plan for this project:
+
 For the `obtain_earthquake_data` function:
 
 Test the function by passing different combinations of parameters, such as varying start and end dates, different minimum magnitudes, and different geographical coordinates.
@@ -54,12 +56,6 @@ Test the map creation by checking if the plot is generated successfully using `p
 Test the addition of earthquake data points by providing test earthquake data and verifying if the points are correctly plotted on the map using plt.scatter() or similar functions.
 Check if the map is displayed or saved correctly using `plt.show()` or `plt.savefig()`.
 
-For the `input_validation` functions:
+For the `coordinate` functions:
 
-Test the input validation functions by providing valid and invalid inputs and checking if the functions correctly identify them.
-Verify if the error messages or exceptions are raised as expected for invalid inputs.
-
-For the program as a whole:
-
-Test the overall functionality by running the program with different inputs and verifying if the expected output is generated or if the program handles errors gracefully.
-
+Test the latitude and longitude one by one to find out if the input is correct to work.

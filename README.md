@@ -3,7 +3,19 @@
 ### Instructions
 
 This project is to apply USGS earthquake data to Australia. In this project, it shows earthquake points in different megnitude and reach their information 
- directly in a simple area sort program, and user can get the updated information of the nearest earthquake by themselves.
+ directly in a simple area sort program, and user can get the updated information of the nearest earthquake by themselves. The main introduction is in the `project` folder's `ProjectReport` file, you can find step by step instruction and the dependencies needed for this program.
+ 
+### The main functions of this program
+
+The first part is calculator to find how many earthquakes during the time user choose in Australia.
+
+The second part earthquake points will be ploted onto the map.
+
+The third part user can choose a state and get the point map of this state.
+
+The fourth part user can get the detail information of the earthquakes in this state. 
+
+The final part user can input the coordinate they are and get the nearest earthquake's information.
  
 ### code folder
 
@@ -21,3 +33,4 @@ Here's `ProjectPlanner.md` and `ProjectReport.md`, the former intruduce the basi
 ### test folder
 
 here is the test file, include `functions.py`, `dependencies.py` and `test_earthquake.py`, this is the test wheather this program can run properly. The `tests.ipynb` isthe result of the test.
+
